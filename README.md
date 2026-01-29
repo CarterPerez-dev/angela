@@ -10,7 +10,7 @@
 ### *[Go Docs](https://pkg.go.dev/github.com/CarterPerez-dev/angela)*
 
 [![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?style=flat&logo=go)](https://go.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: AGPLv3](https://img.shields.io/badge/License-AGPL_v3-purple.svg)](https://www.gnu.org/licenses/agpl-3.0) 
 [![Go Report Card](https://goreportcard.com/badge/github.com/CarterPerez-dev/angela)](https://goreportcard.com/report/github.com/CarterPerez-dev/angela)
 [![PyPI Compatible](https://img.shields.io/badge/PyPI-compatible-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org)
 [![OSV.dev](https://img.shields.io/badge/OSV.dev-integrated-4285F4?style=flat)](https://osv.dev)
@@ -19,8 +19,8 @@ A fast Python dependency updater and vulnerability scanner, written in Go ❤️
 
 angela scans your `pyproject.toml` or `requirements.txt`, updates all dependencies to their latest stable versions, and checks for known CVEs using [OSV.dev](https://osv.dev) — in a single command.
 
-<img width="660" height="558" alt="Screenshot_20260128_235646" src="https://github.com/user-attachments/assets/3f096ab9-9dae-4624-a57b-3ab9ab2ee663" />
 
+<img width="660" height="558" alt="Screenshot_20260128_235646" src="https://github.com/user-attachments/assets/3f096ab9-9dae-4624-a57b-3ab9ab2ee663" />
 
 ## Highlights
 
@@ -323,4 +323,4 @@ The code is written to be educational: clear structure, proper error handling, a
 
 ## License
 
-MIT
+AGPL 3.0
