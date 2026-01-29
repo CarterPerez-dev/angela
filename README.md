@@ -1,8 +1,20 @@
 # angela
 
+[![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?style=flat&logo=go)](https://go.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CarterPerez-dev/angela)](https://goreportcard.com/report/github.com/CarterPerez-dev/angela)
+[![PyPI Compatible](https://img.shields.io/badge/PyPI-compatible-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org)
+[![OSV.dev](https://img.shields.io/badge/OSV.dev-integrated-4285F4?style=flat)](https://osv.dev)
+
 A fast Python dependency updater and vulnerability scanner, written in Go.
 
 angela scans your `pyproject.toml` or `requirements.txt`, updates all dependencies to their latest stable versions, and checks for known CVEs using [OSV.dev](https://osv.dev) — in a single command.
+
+## Demo
+
+[![Angela Demo](https://img.youtube.com/vi/D5Zkm-od2yo/maxresdefault.jpg)](https://youtube.com/shorts/D5Zkm-od2yo)
+
+> *Click to watch: Initialize a project, scan for vulnerabilities, and update dependencies in seconds.*
 
 ## Highlights
 
@@ -289,7 +301,9 @@ just run check   # Run angela check via go run
 
 ## Part of Cybersecurity-Projects
 
-This tool is project #1 in [Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects) — a collection of 60 security-focused projects built for learning and reference.
+[![Cybersecurity Projects](https://img.shields.io/badge/Cybersecurity--Projects-Project%20%231-red?style=flat&logo=github)](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/simple-vulnerability-scanner)
+
+This tool is project #1 in [Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects) — a collection of 60 security-focused projects built for learning and reference. The source is also mirrored there: [simple-vulnerability-scanner](https://github.com/CarterPerez-dev/Cybersecurity-Projects/tree/main/PROJECTS/simple-vulnerability-scanner).
 
 The code is written to be educational: clear structure, proper error handling, and thorough testing. See the [`learn/`](learn/) directory for deep dives into the techniques used.
 
