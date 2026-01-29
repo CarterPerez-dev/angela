@@ -10,11 +10,8 @@ A fast Python dependency updater and vulnerability scanner, written in Go.
 
 angela scans your `pyproject.toml` or `requirements.txt`, updates all dependencies to their latest stable versions, and checks for known CVEs using [OSV.dev](https://osv.dev) — in a single command.
 
-## Demo
 
-[![Angela Demo](https://img.youtube.com/vi/d9LfxGxk9H0/maxresdefault.jpg)](https://youtu.be/d9LfxGxk9H0)
 
-> *Click to watch: Initialize a project, scan for vulnerabilities, and update dependencies in seconds.*
 
 ## Highlights
 
@@ -25,6 +22,14 @@ angela scans your `pyproject.toml` or `requirements.txt`, updates all dependenci
 - Comment-preserving file updates — inline comments, section headers, and formatting stay intact.
 - Configurable via `.angela.toml` or `[tool.angela]` in `pyproject.toml`.
 - Single binary with zero runtime dependencies.
+
+
+## Demo Video
+
+[![Angela Demo](https://img.youtube.com/vi/d9LfxGxk9H0/maxresdefault.jpg)](https://youtu.be/d9LfxGxk9H0)
+
+> *Click to watch: Initialize a project, scan for vulnerabilities, and update dependencies in seconds.*
+
 
 ## Installation
 
