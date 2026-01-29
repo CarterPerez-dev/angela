@@ -1,0 +1,73 @@
+# Sample pyproject.toml for testing angela
+[project]
+name = "sample-app"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+
+dependencies = [
+    # Web Frameworks and related
+    "requests>=2.25.0,<2.29.0", # Older stable release
+    "django>=3.2.0,<3.3.0",     # Very common, older LTS
+    "flask[async]>=2.0.0,<2.1.0", # Older flask with async support
+    "fastapi>=0.70.0,<0.71.0",  # Older FastAPI
+    "uvicorn[standard]>=0.15.0,<0.16.0", # For FastAPI, slightly older
+    "sqlalchemy>=1.4.0,<1.5.0", # ORM, older version
+    "alembic>=1.7.0,<1.8.0",    # DB migrations, older
+    "pydantic>=1.8.0,<1.9.0",   # Data validation, older stable
+    "marshmallow>=3.13.0,<3.14.0", # Object serialization, older
+
+    # CLI tools
+    "click>=8.0.0,<8.1.0",      # CLI framework, older
+    "typer[standard]>=0.4.0,<0.5.0", # Newer CLI framework, older version
+
+    # Data Science & Numerical Computing
+    "numpy>=1.20.0,<1.21.0",    # Foundation for scientific computing, older
+    "pandas>=1.3.0,<1.4.0",     # Data manipulation, older
+    "scipy>=1.7.0,<1.8.0",      # Scientific computing, older
+    "matplotlib>=3.4.0,<3.5.0", # Plotting, older
+    "scikit-learn>=0.24.0,<0.25.0", # Machine learning, older
+    "tensorflow>=2.5.0,<2.6.0", # ML framework, older
+    "pytorch>=1.9.0,<1.10.0",   # ML framework, older
+    "jupyterlab>=3.0.0,<3.1.0", # Interactive computing, older
+    "notebook>=6.4.0,<6.5.0",   # Jupyter Notebook server, older
+    "ipython>=7.20.0,<7.21.0",  # Enhanced Python shell, older
+
+    # Async & Concurrency
+    "httpx>=0.18.0,<0.19.0",    # Async HTTP client, older
+    "starlette>=0.14.0,<0.15.0", # ASGI framework, older
+    "anyio>=3.0.0,<3.1.0",      # Async concurrency library, older
+    "trio>=0.18.0,<0.19.0",     # Async I/O framework, older
+
+    # Utilities
+    "python-dotenv>=0.19.0,<0.20.0", # Environment variables, older
+    "rich>=10.0.0,<10.1.0",     # Rich text and beautiful tracebacks, older
+    "tenacity>=8.0.0,<8.1.0",   # Retry library, older
+    "celery>=5.1.0,<5.2.0",     # Distributed task queue, older
+    "redis>=3.5.0,<3.6.0",      # Redis client, older
+    "paramiko>=2.7.0,<2.8.0",   # SSH client, older
+    "cryptography>=3.4.0,<3.5.0", # Cryptographic recipes, older
+    "pyyaml>=5.4.0,<5.5.0",     # YAML parser, older
+    "packaging>=20.9,<21.0",    # Core utilities for Python packages, older
+
+    "pytest>=7.0.0,<7.1.0",     # Testing framework, older
+    "pytest-asyncio>=0.17.0,<0.18.0", # Asyncio support for pytest, older
+    "black>=22.0.0,<22.1.0",    # Code formatter, older
+    "ruff>=0.0.250,<0.0.251",   # Fast linter/formatter, older
+    "mypy>=0.930,<0.931",      # Static type checker, older
+    "flake8>=4.0.0,<4.1.0",     # Linter, older
+    "isort>=5.9.0,<5.10.0",     # Import sorter, older
+    "pre-commit>=2.15.0,<2.16.0", # Git hooks manager, older
+    "coverage>=6.0.0,<6.1.0",   # Code coverage, older
+    "build>=0.7.0,<0.8.0",      # Build tool, older
+    "twine>=3.7.0,<3.8.0",      # Upload to PyPI, older
+
+    "sphinx>=4.3.0,<4.4.0",     # Documentation generator, older
+    "sphinx-rtd-theme>=1.0.0,<1.1.0", # Theme for Sphinx, older
+    "myst-parser>=0.16.0,<0.17.0", # Markdown in Sphinx, older
+
+    "psycopg2-binary>=2.8.0,<2.9.0", # PostgreSQL adapter, older
+    "mysqlclient>=2.0.0,<2.1.0",    # MySQL adapter, older
+    "asyncpg>=0.24.0,<0.25.0",      # Async PostgreSQL, older
+]
+
