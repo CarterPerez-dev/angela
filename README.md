@@ -12,7 +12,7 @@ angela scans your `pyproject.toml` or `requirements.txt`, updates all dependenci
 
 ## Demo
 
-[![Angela Demo](https://img.youtube.com/vi/D5Zkm-od2yo/maxresdefault.jpg)](https://youtube.com/shorts/D5Zkm-od2yo)
+[![Angela Demo](https://img.youtube.com/vi/d9LfxGxk9H0/maxresdefault.jpg)](https://youtu.be/d9LfxGxk9H0)
 
 > *Click to watch: Initialize a project, scan for vulnerabilities, and update dependencies in seconds.*
 
